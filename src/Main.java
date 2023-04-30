@@ -33,8 +33,7 @@ public class Main {
             System.out.println(" Установите версию приложения для Android по ссылке ");
         }else if (clientOS ==1 && clientDeviceYear < 2015){
             System.out.println(" Установите облегченную версию для Android ");
-        }
-        if (clientOS ==0 && clientDeviceYear < 2015){
+        }else if (clientOS ==0 && clientDeviceYear < 2015){
             System.out.println(" Установите облегченную версию приложения для iOS по ссылке");
         }else if (clientOS ==0 && clientDeviceYear >=2015){
             System.out.println( " Установите версию для iOS ");
@@ -64,43 +63,27 @@ public class Main {
         }
         public static void task5(){
             System.out.println(" Задача 5 ");
-            int monthNumber = 4;
+            int monthNumber = 6;
             switch (monthNumber) {
-             case 12:
+                case 12:
+                case 1:
+                case 2:
                 System.out.println(" Зима");
                break;
-                case 1:
-                    System.out.println("Зима");
-                    break;
-                case 2:
-                    System.out.println("Зима");
-                    break;
                 case 3:
-                    System.out.println("Весна ");
-                    break;
                 case 4:
-                    System.out.println("Весна ");
-                    break;
                 case 5:
-                    System.out.println("Весна ");
+                    System.out.println(" Весна");
                     break;
                 case 6:
-                    System.out.println("Лето");
-                    break;
                 case 7:
-                    System.out.println("Лето");
-                    break;
                 case 8:
                     System.out.println("Лето");
                     break;
                 case 9:
-                    System.out.println("Осень");
-                    break;
                 case 10:
-                    System.out.println("Осень");
-                    break;
                 case 11:
-                    System.out.println("Осень");
+                System.out.println(" Осень");
                     break;
                 default:
                 System.out.println( " Нет такого месяца");
